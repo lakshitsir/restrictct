@@ -7,7 +7,7 @@ from telethon.extensions import html
 
 # Vercel Environment Variables se keys fetch karna best practice hai
 API_ID = int(os.environ.get("API_ID", 12767104))
-API_HASH = os.environ.get("API_HASH", "a0ce1daccf78234927eb68a62f894b97")
+API_HASH = os.environ.get("API_HASH", "env me")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN") # Yahan test ke liye daal sakte ho
 
 app = FastAPI()
